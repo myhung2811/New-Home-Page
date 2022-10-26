@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    margin: 50px 100px;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin-left: 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+}
+
+.navbar ul li a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.center{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.left{
+    width: 750px;
+    height: 500px;
+    position: relative;
+}
+
+.left img{
+    position: absolute;
+    width: 750px;
+    height: 250px;
+}
+
+.left .content{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    bottom: 0;
+    height: 250px;
+}
+
+.left .content h1{
+    font-size: 48px;
+    font-weight: 900;
+    position: absolute;
+    width: 280px;
+    height: 170px;
+    margin-bottom: 35px;
+}
+
+.left .content p{
+    position: absolute;
+    width: 337px;
+    margin-left: 409px;
+    margin-bottom: 100px;
+    line-height: 25px;
+}
+
+.left .content a{
+    position: absolute;
+    margin-left: 409px;
+    margin-top: 145px;
+    width: 200px;
+    border: 10px solid transparent;
+    background-color:hsl(5, 85%, 63%);
+    text-align: center;
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding: 5px 7px;
+}
+
+.left .content a:hover{
+    color:hsl(36, 100%, 99%);
+    background:hsl(240, 100%, 5%);
+    transition: 0.5s;
+}
+
+
+.right{
+    width: 300px;
+    background-color: hsl(240, 100%, 5%);
+    color:hsl(36, 100%, 99%);
+    display: block;
+    padding: 15px 15px;
+}
+
+.right h1{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.right h1:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.right .tab{
+    margin-top: 35px;
+}
+
+.right .tab h2{
+    font-size: 19px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.right .tab p{
+    color:hsl(233, 8%, 79%);
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.right .tab h2:hover{
+    color:hsl(35, 77%, 62%);
+    transition: 0.5s;
+}
+
+.right .line{
+    margin: 10px auto;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer .tab-footer{
+    display: flex;
+}
+
+.footer .tab-footer:nth-child(2){
+    margin-left: 55px;
+}
+
+.footer .tab-footer:nth-child(3){
+    margin-left: 95px;
+}
+
+.tab-footer img{
+    width: 90px;
+}
+
+.tab-footer .content-footer{
+    margin-left: 20px;
+}
+
+.tab-footer .content-footer h1{
+    color:hsl(233, 8%, 79%);
+}
+.tab-footer .content-footer h2{
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.tab-footer .content-footer p{
+    font-size: 14px;
+    line-height: 21px;
+}
